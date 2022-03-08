@@ -1,4 +1,4 @@
-# Specific domain implemenation for ML.
+# Specific domains implemenation for ML.
 * **Including CV, NLP, Bioinformatics.**
 
 ## CV
