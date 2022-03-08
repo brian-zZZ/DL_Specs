@@ -1,4 +1,5 @@
-# Specific domain implemenation for ML. Including CV, NLP, Bioinformatics.
+# Specific domain implemenation for ML.
+* **Including CV, NLP, Bioinformatics.**
 
 ## CV
 Image classification, object detection, semantic segmentation, etc.
