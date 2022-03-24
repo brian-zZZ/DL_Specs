@@ -5,7 +5,7 @@ Pytorch implementation of paper [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVO
 Introduce a novel **fast approximate convolutions** illustrated below.
 
 <p align="center">
-<img src="key_contributions.png" width="250">
+<img src="key_contributions.png" width="1000">
 </p>
 
 ## Usage
