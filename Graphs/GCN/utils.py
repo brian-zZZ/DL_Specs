@@ -36,6 +36,7 @@ def load_data(path="./data/cora/", dataset="cora"):
     # 实现上，对于转置后更大的点取更大的值(adj.T+adj-adj)，对于转置后更小的点不改动(adj+0-0)
     adj = adj + adj.T.multiply(adj.T > adj) - adj.multiply(adj.T > adj)
 
+    # D^-1 * A * D^-1 * H(l) = (D^-1 * A) * (D^-1 * H(l)) 分别对A和H(l) Normalize
     features = normalize(features)
     adj = normalize(adj + sp.eye(adj.shape[0])) # adj with added self-connections
 
