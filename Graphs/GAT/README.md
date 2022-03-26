@@ -23,7 +23,7 @@ Longer execution time: 69.3s (1:0.4), lower GPU-Util: 33% (0.4:1), same results 
 python train_ppi.py --cuda_idx 2 --ppi_path './data/ppi' --enable_tensorboard \
     --checkpoint_freq 50 --should_test
 ```
-Finish in secs, test micro-F1 score: 0.973. \
+Finish in 490 secs (200 epochs), test micro-F1 score: 0.973. \
 Validation micro f1 score curve:
 <p align="center">
 <img src="val_micro_f1.svg" width="1000">
