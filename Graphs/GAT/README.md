@@ -26,7 +26,7 @@ python train_ppi.py --cuda_idx 2 --ppi_path './data/ppi' --enable_tensorboard \
 Finish in secs, test micro-F1 score: 0.973. \
 Validation micro f1 score curve:
 <p align="center">
-<img src="val_micro_f1.svg" width="250">
+<img src="val_micro_f1.svg" width="1000">
 </p>
 
 
