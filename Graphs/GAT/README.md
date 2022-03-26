@@ -9,7 +9,7 @@ This repo contains two types of implementation:
 ```bash
 python train_cora.py
 ```
-It takes around 27.8s to run on a Titian Xp (83% util), best test results: ```loss=0.6526, accuracy=0.8420```
+It takes around 27.8s to run on a Nvidia Titan V (83% util), best test results: ```loss=0.6526, accuracy=0.8420```
 
 * Sparse run
 ```bash
