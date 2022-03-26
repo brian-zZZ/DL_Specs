@@ -1,5 +1,5 @@
 # [Graph Attention Networks](https://arxiv.org/abs/1710.10903)(GAT) Pytorch implementation
-This repo contains two types of implementation: \
+This repo contains two types of implementation:
 * Basic GAT: simple, easy to grab the concept, heavily borrow from [pyGAT, Diego Antognini](https://github.com/Diego999/pyGAT)
 * Efficient GAT: efficient, takes time to interpret some matrix operations, heavily borrow from [pytorch-GAT, Aleksa Gordić](https://github.com/gordicaleksa/pytorch-GAT)
 
